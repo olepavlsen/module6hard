@@ -67,10 +67,9 @@ class Figure:
             return self.__sides
 
     def get_sides(self):
-        return self.__sides  # enlist = list(self.__sides)
+        return self.__sides
 
     def __len__(self):
-        # self.get_sides()
         if self.sides_count == 1:
             return self.__sides[0]
         elif self.sides_count == 3:
